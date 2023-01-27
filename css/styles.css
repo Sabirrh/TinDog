@@ -1,0 +1,176 @@
+body{
+    font-family: "Montserrat";
+    
+}
+
+
+#tittle{
+    background-color: #ff4c68;
+    /* font-family: 'Montserrat', sans-serif; */
+    color: #fff;
+
+}
+.comtainer-fluid{
+    padding:3% 15% 7% ;
+}
+.top-row{
+    font-family: 'Ubuntu', sans-serif;
+}
+.Dog-description{
+    font-family: "Montserrat-Bold ", sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+
+}
+h2{
+    font-family: "Montserrat-BOld";
+   /* color: #fff;  */
+   font-size: 3rem;
+   font-weight: bold;
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+p{
+    color: #aaa;
+}
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* Download Buttom */
+
+.download-botton{
+    margin:5% 3% 5% 0;
+}
+
+/* Tittle Image */
+.tittle-image{
+    width: 22%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 30%;
+}
+
+
+/* middle Part below top  features box*/
+
+#features{
+   padding:7% 15% ;
+   background-color: #fff;
+   position: relative;
+  
+
+}
+
+.feature-box{
+    text-align:center;
+    padding: 4.5%;
+}
+.icon{
+    color: #ef8172;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+ background-color:#ff4c68; 
+}
+
+
+/* Testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+.carousel{
+    padding: 7% 15%;
+}
+.Testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8272;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+
+/* pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+ /* Call to Action Section */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: #fff;
+    text-align: center;
+
+
+}
+.cta-heading{
+    font-family: "Montserrat-Black-Bold";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+
+
+}
+/* Footer Section */
+#footer{
+    padding:7% 15%;
+    text-align: center;
+}
+.footer-icon{
+    margin: 20px 10px;
+} 
+
+@media (max-width :1028px) {
+    #tittle{
+        text-align: center;
+    }
+    .tittle-image{
+        position: static;
+        transform: rotate(0);
+        
+    }
+}
